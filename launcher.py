@@ -158,7 +158,8 @@ def main():
     print(f"{Colors.BOLD}{Colors.GREEN}════════════════════════════════════════{Colors.RESET}\n")
     
     try:
-        subprocess.run([str(python_exe), str(entry_file)])
+        # 以项目目录为工作目录拉起入口，确保 run.py 相对路径与 sys.path 正确
+        subprocess.run([str(python_exe), str(entry_file)], cwd=str(Path(__file__).parent.absolute()))
     except KeyboardInterrupt:
         print(f"\n{Colors.YELLOW}用户中断{Colors.RESET}")
     except Exception as e:

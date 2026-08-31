@@ -1,9 +1,0 @@
-[
-    {
-        "file_abs_path": "C:\\my\\workspace\\website\\app\\agent\\api\\p_skill_system\\base_skills\\shell.py",
-        "name": "shell",
-        "is_base": true,
-        "enable": true,
-        "init_info": null
-    }
-]

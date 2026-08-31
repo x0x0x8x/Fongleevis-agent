@@ -4,3 +4,7 @@ requests
 
 aiohttp
 gevent
+# FastAPI 服务层
+fastapi
+uvicorn[standard]
+pydantic

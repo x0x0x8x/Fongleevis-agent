@@ -1,6 +1,7 @@
-flask
-flask-socketio
+fastapi
+uvicorn[standard]
+pydantic
 requests
-pywinpty
 aiohttp
 gevent
+pywinpty

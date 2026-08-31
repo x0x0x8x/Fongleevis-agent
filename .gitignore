@@ -1,0 +1,17 @@
+# IDE
+.idea/
+
+# Virtual Environment
+.venv/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+*.log
+.*
+
+# Project specific
+3.10
+agentspace/
+debug_logs/

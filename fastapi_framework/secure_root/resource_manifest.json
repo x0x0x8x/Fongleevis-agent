@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "secure_root": "C:\\my\\workspace\\website\\fastapi_framework\\secure_root",
+  "updated_at": "2026-08-16T00:28:54",
+  "entries": [
+    {
+      "scope": "subsite",
+      "name": "demo",
+      "disk_dir": "C:\\my\\workspace\\website\\fastapi_framework\\secure_root\\subsites\\demo",
+      "url_prefix": "",
+      "allow_suffixes": [],
+      "auth_required": false,
+      "status": "registered",
+      "created_at": "2026-08-16T00:26:19",
+      "updated_at": "2026-08-16T00:26:19"
+    },
+    {
+      "scope": "framework",
+      "name": "assets",
+      "disk_dir": "C:\\my\\workspace\\website\\fastapi_framework\\secure_root\\framework\\assets",
+      "url_prefix": "",
+      "allow_suffixes": [],
+      "auth_required": false,
+      "status": "registered",
+      "created_at": "2026-08-16T00:28:54",
+      "updated_at": "2026-08-16T00:28:54"
+    }
+  ]
+}
